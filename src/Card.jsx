@@ -23,15 +23,15 @@ const Card = ({ adviceNumber, adviceText, fetchAdvice }) => {
         className="mb-10"
         src={
           screenSize.width <= 375
-            ? 'src/assets/pattern-divider-mobile.png'
-            : 'src/assets/pattern-divider-desktop.png'
+            ? 'https://i.ibb.co/MMpj711/pattern-divider-mobile.png'
+            : 'https://i.ibb.co/HqqfRP9/pattern-divider-desktop.png'
         }
         alt="Divider"
       />
       <button onClick={handleClick}>
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-neon-green p-5 rounded-full focus:outline-none transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_theme('colors.neon-green')]">
           <div className="relative z-10">
-            <img src="src/assets/icon-dice.png" alt="Dice Icon" />
+            <img src="https://i.ibb.co/2jNzHxv/icon-dice.png" alt="Dice Icon" />
           </div>
         </div>
       </button>
